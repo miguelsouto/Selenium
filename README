@@ -1,0 +1,13 @@
+ -You must have Google Chrome installed, and had the ChromeDriver downloaded by the link 
+  "http://chromedriver.storage.googleapis.com/index.html".
+ -Be sure that the versions of Google Chrome and ChromeDriver are the same, for example, if your Chrome version is 85.0.4183.121,
+  you must download the ChromeDriver 85.x version;
+ -Change your path in method System.setProperty(key, path), put the path where your ChromeDriver file is.
+ -Execute the files as Java Application;
+
+ -Você deve ter o Google Chrome instalado em sua máquina, assim como realizar o download do ChromeDriver através do link 
+  "http://chromedriver.storage.googleapis.com/index.html";
+ -Certifique-se de baixar a versão do ChromeDriver que seja compatível à do navegador Chrome que você possui, por exemplo,
+  se o Chrome que você possui é a versão 85.0.4183.121, realize o download do ChromeDriver 85.x.
+ -Altere o path no método System.setProperty(key, path) para o path onde o seu ChromeDriver está salvo.
+ -Executar os arquivos como Java Application;

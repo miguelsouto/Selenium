@@ -1,3 +1,20 @@
+Tests classes:
+ Window: some operations on the browser window, like set a size, maximize, fullscreen;
+ GoogleSearch: acess the google home page and executes a search for GitHub;
+ WikiNavigate: it opens the wikipedia home page and search for Docker, and opens the docker page;
+ ConverterTest: acess a site with a greeting converter tool, it executes a single convertion and checks the answer;
+ Screenshot: it opens the browser, take a screenshot and generate a file on png format;
+ UnitSelenium: it executes junit tests with webdrivers;
+ 
+Classes de testes:
+ Window: realiza algumas operações na janela que é aberta para o navegador, como alterar seu tamanho, maximizá-la, deixá-la em fullscreen;
+ GoogleSearch: acessa a pagina home do google e executa uma consulta por GitHub;
+ WikiNavigate: acessa a página home da wikipédia e realiza uma busca por docker, em seguida é acessada a página do docker;
+ ConverterTest: acessa um site de conversão de cumprimento, realiza uma conversão e realiza um teste se o valor está correto;
+ Screenshot: abre o navegador, tira um print screen e gera um arquivo png com essa informação;
+ UnitSelenium: é executado um teste utilizando junit juntamente com webdrivers;
+ 
+Project details:
  -You must have Google Chrome installed, and had the ChromeDriver downloaded by the link 
   "http://chromedriver.storage.googleapis.com/index.html";
  -Be sure that the versions of Google Chrome and ChromeDriver are the same, for example, if your Chrome version is 85.0.4183.121,

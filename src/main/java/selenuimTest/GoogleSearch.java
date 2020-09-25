@@ -10,10 +10,12 @@ public class GoogleSearch {
 		System.setProperty("webdriver.chrome.driver", "/home/miguel/SelenuimDrivers/chromedriver");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://google.com");
-		WebElement inputBox = driver.findElement(By.name("q"));
+		
+		String inputBoxName = "q";
+		WebElement inputBox = driver.findElement(By.name(inputBoxName));
 
 		if(inputBox != null) {
-			inputBox.sendKeys("Git Hub");
+			inputBox.sendKeys("GitHub");
 			inputBox.submit();
 		}
 	}
